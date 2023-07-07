@@ -1,4 +1,4 @@
-# Arrhythmia Detection using IoT
+# DeepLearning based Arrhythmia Detection
 
 ## Introduction
 
@@ -21,26 +21,4 @@ The proposed approach could be used to obtain ECG Signals from the commonly used
 - Real-time data collection, processing and storage in the cloud
 - Ease of use, feasible and affordable (relative to the products in the market)
 - Alerts are provided when detected, data dashboard is available with necessary signal details
-
-## Design
-
-### Components Used
-
-#### BioAmp-EXG-Pill
-
-BioAmp EXG Pill is an Analog Front End board for acquiring Biopotential Signals with any MicroController Unit in presence of an ADC. It can record publication-grade Biopotential Signals including ECG, EMG, EOG and EEG without any dedicated filters in Hardware or Software Mode.
-
-![BioAmp-EXG-Pill](./images/bioamp_exg_pill.jpg)
-
-#### ESP8266 (NodeMCU)
-
-ESP8266 is a Wi-Fi microchip built with TCP/IP networking software and microcontroller capabilities. It is generally used as the WiFi module because of its low cost and small size. It is capable of being interfaced with microcontroller boards through Serial Port. It is widely used in autonomous projects due to its compact features. Since ESP8266 supports APSD, it is the ideal choice for VoIP applications and Bluetooth interfaces.
-
-![ESP8266 (NodeMCU)](./images/nodemcu.jpg)
-
-#### Gel electrodes
-
-Due to the minute nature of Electrical signals produced by Electrocardiogram electrodes, capturing the same, a high level of accuracy is required. These Gel electrodes carry electric current from the skin to the measuring instrument and are held by sticky patches to the skin to measure the electrical activity.
-
-![Gel Electrodes](./images/gel_electrodes.jpg)
 
